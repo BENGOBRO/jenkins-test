@@ -12,6 +12,7 @@ public class JenkinsTestApplication {
 
     public static void main(String[] args) {
         log.info("Executing app...");
+        log.warn("HOTFIX");
         SpringApplication.run(JenkinsTestApplication.class, args);
     }
 
